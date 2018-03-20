@@ -1,8 +1,10 @@
 ---
-date: 2015-05-09T16:46:35+02:00
-title: "How Do I Move a Mockup from One myBalsamiq Project to Another?"
-menu: "menumybalsamiq"
+title: How Do I Move a Mockup from One myBalsamiq Project to Another?
+date: '2015-05-09T14:46:35.000+00:00'
 weight: 170
+menu: "menumybalsamiq"
+product: "myBalsamiq FAQs"
+draft: ''
 ---
 
 There are a couple ways you can go about moving a mockup from one myBalsamiq project to another.
@@ -23,11 +25,11 @@ You can then go to your new project, create a new Mockup, click on **Project** >
 
 From the [Single Mockup Page](https://docs.balsamiq.com/mybalsamiq/mockup/) click the [Download BMML link](https://docs.balsamiq.com/mybalsamiq/mockup/#mockup-description-permalink-download).
 
-![](https://media.balsamiq.com/img/support/docs/myb/mockup-info.png)
+![](https://media.balsamiq.com/img/support/docs/myb/download-bmml.png)
 
 This will download the file version of your mockup.
 
-You can then go to your new project and [upload the .bmml file](https://docs.balsamiq.com/mybalsamiq/project/#adding-mockups) from the _New Mockups_ Button's drop-down arrow.
+You can then go to your new project and [upload the .bmml file](https://docs.balsamiq.com/mybalsamiq/project/#adding-mockups) from the **New Mockup** Button's drop-down arrow.
 
 ![](https://media.balsamiq.com/img/support/docs/myb/project-uploadmockup.png)
 

@@ -1,21 +1,27 @@
 ---
-date: 2015-05-09T16:46:35+02:00
-title: "Do Your Plugins Work with Atlassian Cloud?"
-menu: "menusales"
+title: Do Your Plugins Work with Atlassian Cloud?
+date: '2015-05-09T14:46:35.000+00:00'
 weight: 530
+menu:
+  menusales:
+    weight: 530
+draft: ''
+
 ---
-Yes. Both Mockups for Confluence and Mockups 3 for JIRA Cloud work in Atlassian Cloud (formerly called Atlassian OnDemand). Installation and purchasing is different for the two plugins.
+Yes. Both Balsamiq Wireframes for Confluence Cloud and Balsamiq Wireframes for Jira Cloud work in Atlassian Cloud (formerly called Atlassian OnDemand). Installation and purchasing is different for the two plugins.
 
-## Mockups for Confluence
+## Balsamiq Wireframes for Confluence Cloud
 
-Mockups for Confluence comes pre-installed in Atlassian Cloud.  Licensing works similar to our plugins for Confluence Server, however licenses for Cloud users must be purchased directly from [Balsamiq](https://balsamiq.com/buy/#c).
+Balsamiq Wireframes for Confluence Cloud is a connect add-on, and installed and sold directly in Atlassian Marketplace. This plugin cannot be purchased directly from Balsamiq.
 
-Details can be found in the [Mockups for Confluence Cloud Admin Guide](https://docs.balsamiq.com/confluence/admin-guide-cloud/).
+Details can be found in the [Balsamiq Wireframes for Confluence Cloud Admin Guide](https://docs.balsamiq.com/confluence/cloud/wireframes/admin-guide/).
 
-## Mockups 3 for JIRA Cloud
+{{% alert warning %}}**Note:** Balsamiq Wireframes for Confluence Cloud was released January 9, 2018. For more info, please see our [Balsamiq Wireframes for Confluence Cloud Transition Guide](https://docs.balsamiq.com/confluence/cloud/wireframes/transition-guide/).{{% /alert %}}
 
-Mockups 3 for JIRA Cloud is a connect add-on, and installed and sold directly in Atlassian Marketplace. This plugin cannot be purchased directly from Balsamiq.
+## Balsamiq Wireframes for Jira Cloud
 
-Details can be found in the [Mockups 3 for JIRA Cloud Admin Guide](https://docs.balsamiq.com/jira/admin-guide-cloud/).
+Balsamiq Wireframes for Jira Cloud is a connect add-on, and installed and sold directly in Atlassian Marketplace. This plugin cannot be purchased directly from Balsamiq.
 
-{{% alert warning %}}**Note:** Mockups 3 for JIRA Cloud was released January 18, 2016.  We will soon be moving all JIRA Cloud instances to this new connect add-on, however, in the meantime, you may be using an older version of the plugin. Please see the [Mockups 3 for JIRA Cloud Transition Guide](https://docs.balsamiq.com/jira/transition-guide/).{{% /alert %}}
+Details can be found in the [Balsamiq Wireframes for Jira Cloud Admin Guide](https://docs.balsamiq.com/jira/cloud/wireframes/admin-guide/).
+
+{{% alert warning %}}**Note:** Balsamiq Wireframes for Jira Cloud was released January 9, 2018. For more info, please see our [Balsamiq Wireframes for Jira Cloud Transition Guide](https://docs.balsamiq.com/jira/cloud/wireframes/transition-guide/).{{% /alert %}}

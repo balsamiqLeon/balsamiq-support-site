@@ -1,8 +1,10 @@
 ---
-date: 2015-05-09T16:46:35+02:00
-title: "Using Balsamiq in Your Classroom"
-menu: "menudesktop"
+title: Using Balsamiq in Your Classroom
+date: '2015-05-09T14:46:35.000+00:00'
 weight: 200
+menu: "menudesktop"
+product: "Balsamiq Mockups 3 for Desktop FAQs"
+draft: ''
 ---
 
 If you are teaching a course about human computer interaction, software design, user interfaces or prototyping,
@@ -18,7 +20,7 @@ Please email your comments and stories to [peldi@balsamiq.com](mailto:peldi@bals
 
 ## Getting Balsamiq 3 for Desktop for Your Class
 
-We are proud to offer you **a long-term extended trial key for Mockups for Desktop for the duration of your course,
+We are proud to offer you **a long-term extended trial key for Mockups 3 for Desktop for the duration of your course,
 free of charge**.
 
 To apply, enter your information **[here](https://balsamiq.com/free)**. You will receive the trial key over email.
@@ -30,21 +32,21 @@ To install Balsamiq Mockups 3 for Desktop, just visit [our download page](https:
 
 Your students are welcome to download it and install it on their own laptops and computers as well.
 
-If you'd like to install and register the application in several lab machines, we have some instructions [here](/desktop/commandline/).
+If you'd like to install and register the application in several lab machines, we have some instructions [here](/installation/silentinstall/).
 
 ## Using the Class License Key
 
 Feel free to share the extended trial License Information you received from us with your students however you see fit,
 as long as you only share it with your students and not publicly. The key you received can be used on multiple machines.
 
-Once they [register the software](/installation/register/#registering-mockups-for-desktop)
+Once they [register the software](/sales/desktopregister/#registering-mockups-for-desktop)
 with it, they will see that the application's fully-functioning trial period will be extended for the duration of your class.
 
 ## Sharing and Grading Project Files
 
 Your school probably already has a means for students to share files with each other, and with you for grading.
 
-Some schools use Dropbox, some others use Microsoft OneDrive or Google Drive, or others. We [generally work well](/desktop/clouddrive/) with these tools.
+Some schools use Dropbox, some others use Microsoft OneDrive or Google Drive, or others. We generally work well with these tools.
 
 Balsamiq 3 for Desktop project files are no different: each BMPR file contains everything that's necessary to work on and
 review a Balsamiq project.
@@ -54,7 +56,7 @@ You can also have your students [Export their Projects to PDF](https://docs.bals
 ## Training Your Students in Mockups
 
 Our tools are famous for being easy to use, but you might want to direct your students to our [support portal](/)
-for documentation and tutorials. A good place to start from the [Creating Your First Mockup](/tutorials/firstmockup/) tutorial.
+for documentation and tutorials. A good place to start from the [Creating Your First Mockup](/tutorials/firstwireframe/) tutorial.
 
 You can also point your students to these two free courses on Mockups:
 
@@ -73,7 +75,7 @@ No. They can purchase Balsamiq Mockups 3 for Desktop [here](https://balsamiq.com
 
 ## More Resources
 
-* Here's a blog post about [8th graders using Mockups](http://blogs.balsamiq.com/team/2013/03/14/app-design-with-8th-graders/).
+* Here's a blog post about [8th graders using Mockups](https://blog.balsamiq.com/app-design-with-8th-graders/).
 * Here's a series of videos of students in England [showing off their creations](https://www.youtube.com/channel/UCJzbJZI8EzMcIofCQ_FceQw).
 
 * * *

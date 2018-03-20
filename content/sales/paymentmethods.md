@@ -1,30 +1,34 @@
 ---
-date: 2015-05-09T16:46:35+02:00
-title: "Which Payment Methods Are Accepted, and What Are Your Payment Terms?"
-menu: "menusales"
+title: Which Payment Methods Are Accepted, and What Are Your Payment Terms?
+date: '2015-05-09T14:46:35.000+00:00'
 weight: 180
+menu:
+  menusales:
+    weight: 180
+draft: ''
+
 ---
 
-The answer depends on the version of Balsamiq Mockups:
+The answer depends on the version of Balsamiq:
 
-*   [Subscriptions](#subscriptions) - myBalsamiq, Mockups 3 for Google Drive, and Mockups 3 for JIRA Cloud.
-*   [Licenses](#licenses) - Mockups 3 for Desktop, Mockups for Confluence, and Mockups for JIRA Server.
+*   [Subscriptions](#subscriptions) - Balsamiq Cloud, Balsamiq for Google Drive, Wireframes for Confluence Cloud and Wireframes for Jira Cloud.
+*   [Licenses](#licenses) - Mockups 3 for Desktop, Wireframes for Confluence Server, and Wireframes for Jira Server.
 
 * * *
 
 ## Subscriptions
 
-We only accept [automatic credit card payments](/sales/ordering/) for myBalsamiq and Mockups 3 for Google Drive plans. We do not accept other forms of payment for these subscription-based services.
+We only accept [automatic credit card payments](/sales/ordering/) for Balsamiq Cloud and Balsamiq for Google Drive plans. We do not accept other forms of payment for these subscription-based services.
 
-Mockups 3 for JIRA Cloud is sold via [Atlassian Marketplace](/sales/marketplace/).
+Wireframes for Confluence Cloud and Wireframes Jira Cloud are sold via [Atlassian Marketplace](/sales/marketplace/).
 
 * * *
 
 ## Licenses
 
-All licenses for Mockups 3 for Desktop, Mockups for Confluence, and Mockups for JIRA Server can be purchased by **credit card,** (including MasterCard, Visa, Discover, and American Express) via our [secure](/sales/safe/) online [order form](https://balsamiq.com/buy/).
+All licenses for Mockups 3 for Desktop, Wireframes for Confluence Server, and Wireframes for Jira Server can be purchased by **credit card,** (including MasterCard, Visa, Discover, and American Express) via our [secure](/sales/safe/) online [order form](https://balsamiq.com/buy/).
 
-We unfortunately do not accept PayPal as a form of payment, however most debit cards with a Visa or MasterCard logo (and that do not require a PIN) are accepted.
+We unfortunately [do not accept PayPal](/sales/nopaypal) as a form of payment, however most debit cards with a Visa or MasterCard logo (and that do not require a PIN) are accepted.
 
 For orders of US $300 or more we also accept additional payment options. Our Terms are Net 30\. Details on how to submit your order are [here](/sales/ordering/). Once you have received your invoice, you will be able to pay using the options below.
 

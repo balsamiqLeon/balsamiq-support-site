@@ -10,21 +10,7 @@
 
   <div class="local-nav local-nav-1 hidden-xs hidden-sm col-md-3">
     <div id="sidebar-box">
-    {{ if eq .Section "sales" }}
-      {{ partial "sidebar_sales.html" . }}
-    {{ else if eq .Section "desktop" }}
-      {{ partial "sidebar_desktop.html" . }}
-    {{ else if eq .Section "mybalsamiq" }}
-      {{ partial "sidebar_mybalsamiq.html" . }}
-    {{ else if eq .Section "plugins" }}
-      {{ partial "sidebar_plugins.html" . }}
-    {{ else if eq .Section "installation" }}
-      {{ partial "sidebar_installation.html" . }}
-    {{ else if eq .Section "resources" }}
-      {{ partial "sidebar_resources.html" . }}
-    {{ else if eq .Section "tutorials" }}
-      {{ partial "sidebar_tutorials.html" . }}
-    {{ end }}
+		{{ partial "sidebar.html" . }}
     {{ partial "sidebar_inpage.html" . }}
     </div>
   </div>
@@ -51,12 +37,18 @@
               {{ end }}
               </li>
               <li class="next">
-              {{ if .PrevInSection }}
-                <a href="{{.PrevInSection.Permalink}}">{{.PrevInSection.Title}} <span aria-hidden="true">&rarr;</span></a>
-              {{ end }}
+								{{ if .PrevInSection }}
+								<a href="{{.PrevInSection.Permalink}}">{{.PrevInSection.Title}} <span aria-hidden="true">&rarr;</span></a>
+								{{ end }}
               </li>
             </ul>
           </nav>
+          <hr>
+          <span class="gray t36">
+          <a href="https://twitter.com/intent/tweet/?text={{ .Title }}&url={{ .Permalink }}&via=balsamiq" target="_blank" class="js-social-share"><i class="ss-icon ss-social-circle red">&#xF611;</i></a>
+          <a href="https://www.facebook.com/share.php?u={{ .Permalink }}" target="_blank" class="js-social-share"><i class="ss-icon ss-social-circle red">&#xF610;</i></a>
+          <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}" target="_blank" class="js-social-share"><i class="ss-icon ss-social-circle red">&#xF612;</i></a></span>
+<span class="pull-right"><a href="https://github.com/balsamiq/support.balsamiq.com/blob/master/content{{ substr .RelPermalink 0 -1 }}.md" target="_blank"><i class="ss-icon ss-social-circle ss-github" aria-hidden="true"></i> Edit this page</a></span>
          </article>
       </div>
     </div>
@@ -69,5 +61,12 @@
 </div>
 {{/* /BODY MAIN */}}
 {{/* ======================================== */}}
+
+{{/* Initialize gifplayer (http://rubentd.com/gifplayer/) for images with alt text set to "gif" */}}
+<script>
+			$(document).ready( function(){
+				$("img[alt='gif']").gifplayer({ label: 'Play' });
+			});
+</script>
 
 {{ partial "footer.html" . }}

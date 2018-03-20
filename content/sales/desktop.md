@@ -1,15 +1,19 @@
 ---
-date: 2015-05-09T16:46:35+02:00
-title: "Mockups 3 for Desktop Purchasing Table of Contents"
-menu: "menusales"
+title: Mockups 3 for Desktop Purchasing Table of Contents
+date: '2015-05-09T14:46:35.000+00:00'
 weight: 20
+menu:
+  menusales:
+    weight: 20
+draft: ''
+
 ---
 
-This section covers the most frequently asked questions related to the licensing and purchasing of [Mockups 3 for Desktop](https://balsamiq.com/products/mockups/). Other useful links for Mockups 3 for Desktop are the [Mockups 3 for Desktop Documentation](https://docs.balsamiq.com/desktop/) and our [Tutorials and Videos](/tutorials/).
+This section covers the most frequently asked questions related to the licensing and purchasing of [Mockups 3 for Desktop](https://balsamiq.com/download). Other useful links for Mockups 3 for Desktop are the [Mockups 3 for Desktop Documentation](https://docs.balsamiq.com/desktop/) and our [Tutorials and Videos](/tutorials/).
 
 ## Evaluating
 
-You can compare our products <a href="https://balsamiq.com/products/compare/">here</a>.
+You can compare our products <a href="https://balsamiq.com/products/">here</a>.
 
 {{% sales_evaluating %}}
 
@@ -20,7 +24,7 @@ You can compare our products <a href="https://balsamiq.com/products/compare/">he
 *   [I have two computers that I personally use. Do I need to purchase two licenses?](/sales/multiplecomputers/)
 *   [Can I request a quote or invoice in a currency other than US Dollars?](/sales/currency/)
 *   [Do you offer any discounts?](/sales/discounts/)
-*   [Can I get Mockups for free?](https://balsamiq.com/free)
+*   [Can I get Balsamiq for free?](https://balsamiq.com/free)
 *   [Are there any applicable taxes?](/sales/taxes/)
 
 ## Ordering
@@ -42,7 +46,7 @@ You can compare our products <a href="https://balsamiq.com/products/compare/">he
 ## Registration
 
 *   [I lost my License Information (key). Can you email it to me?](/sales/lostlicense/)
-*   [How do I register Mockups 3 for Desktop?](/installation/register/)
+*   [How do I register Mockups 3 for Desktop?](/sales/desktopregister/)
 *   [After I purchase, do I need to reinstall the software?](/sales/reinstall/)
 *   [Can I use the same License Information on multiple machines?](/sales/multiplecomputers/)
 *   [I can’t register: the Activate button stays disabled. What can I do?](/sales/cantregister/)
@@ -57,7 +61,8 @@ You can compare our products <a href="https://balsamiq.com/products/compare/">he
 ## Software Maintenance (Support and Updates)
 
 *   Is there a maintenance fee for Mockups 3 for Desktop? [No](/sales/maintenance/#when-does-my-maintenance-start-and-end).
-*   [How do I update my software?](/installation/update/)
+*   [How do I update my software?](https://docs.balsamiq.com/desktop/intro/#how-to-update)
+*   [Are updates for Mockups 3 for Desktop free?](/sales/updatedesktop)
 
 ## End User License Agreement
 
@@ -69,7 +74,7 @@ You can compare our products <a href="https://balsamiq.com/products/compare/">he
 
 ## Customization and Professional Services
 
-*   [Does Balsamiq have a professional services team who can assist with on-site training, implementation and/or software customizations?](/sales/consulting/)
-*   [Is Balsamiq Mockups Section 508 compliant?](/sales/508/)
+*   [Does Balsamiq have a professional services team who can assist with on-site training, implementation and/or software customizations?](/sales/training/)
+*   [Is Balsamiq Section 508 compliant?](/sales/508/)
 
 ​**More Questions? Please contact us!** If you have a question that is not answered here, please feel free to [contact us](mailto:sales@balsamiq.com?subject=I%20have%20a%20question%20about%20purchasing%20Mockups%20for%20Desktop)

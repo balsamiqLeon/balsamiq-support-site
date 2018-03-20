@@ -1,11 +1,15 @@
 ---
-date: 2015-05-09T16:46:35+02:00
-title: "Can I Get an Audit of Our Past Purchases?"
-menu: "menusales"
+title: Can I Get an Audit of Our past Purchases?
+date: '2015-05-09T14:46:35.000+00:00'
 weight: 430
+menu:
+  menusales:
+    weight: 430
+draft: ''
+
 ---
 
-If you are trying to track down Balsamiq Mockups licenses for your company or your team, this FAQ is for you.
+If you are trying to track down Balsamiq licenses for your company or your team, this FAQ is for you.
 
 Sorry, it isn't possible for us to provide a complete audit of past purchases. Purchases may have been made by multiple buyers, departments, or sister companies, and licenses can be in multiple License Names.
 

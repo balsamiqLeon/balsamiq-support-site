@@ -1,11 +1,15 @@
 ---
-date: 2015-05-09T16:46:35+02:00
-title: "Managing Your myBalsamiq Subscription"
-menu: "menusales"
+title: Managing Your myBalsamiq Subscription
+date: '2015-05-09T14:46:35.000+00:00'
 weight: 510
+menu:
+  menusales:
+    weight: 510
+draft: ''
+
 ---
 
-This page describes how a [site owner](https://support.balsamiq.com/mybalsamiq/siteowner/) or [secondary billing administrator](https://docs.balsamiq.com/mybalsamiq/sitesettings/#4-designating-a-secondary-billing-administrator) can sign up for and make changes to a myBalsamiq subscription.
+This page describes how a [site owner](/mybalsamiq/siteowner/) or [secondary billing administrator](https://docs.balsamiq.com/mybalsamiq/sitesettings/#4-designating-a-secondary-billing-administrator) can sign up for and make changes to a myBalsamiq subscription.
 
 **Note**: we do not support hibernating / deactivating / putting a site on hold: [details here](/sales/hibernate/).
 
@@ -13,7 +17,9 @@ This page describes how a [site owner](https://support.balsamiq.com/mybalsamiq/s
 
 ## Signing up for a Subscription
 
-Before signing up for a subscription, you must first create and confirm your [myBalsamiq trial site](https://balsamiq.com/products/mockups/mybalsamiq).
+{{% alert info %}}**Note:** Following the release of [Balsamiq Cloud](https://balsamiq.cloud/), we stopped taking new myBalsamiq trial sign ups. If you have an existing site, you can still sign up for a plan.{{% /alert %}}
+
+Before signing up for a subscription, you must first have an existing myBalsamiq trial.
 
 The site owner or the [secondary billing administrator](https://docs.balsamiq.com/mybalsamiq/sitesettings/#4-designating-a-secondary-billing-administrator) can sign up for a plan in the Site Settings, under Payment Info. Site Settings can be reach by selecting "My Info" from the main site navigation.
 
@@ -21,7 +27,7 @@ To sign up for a paid subscription, simply pick a plan and select the Sign Up bu
 
 ![](https://media.balsamiq.com/img/support/docs/myb/payment-signup.png)
 
-You'll be given the option to pay monthly or yearly when you enter your credit card information in the [secure](/sales/safe/) sign-up form. Choose the site owner or [secondary billing administrator's](https://docs.balsamiq.com/mybalsamiq/sitesettings/#4-designating-a-secondary-billing-administrator) email for delivery of invoices, and select "Sign Up. You are free to [cancel](#stopping-your-subscription) your subscription at any time.
+You'll be given the option to pay monthly or yearly when you enter your credit card information in the [secure](/sales/safe/) sign-up form. Choose the site owner or [secondary billing administrator's](https://docs.balsamiq.com/mybalsamiq/sitesettings/#4-designating-a-secondary-billing-administrator) email for delivery of invoices, and select "Sign Up". You are free to [cancel](#stopping-your-subscription) your subscription at any time.
 
 * * *
 
@@ -53,17 +59,19 @@ After you have migrated, any future changes to your plan will work as described 
 
 * * *
 
-## Finding Past Invoices
+## Finding past Invoices
 
 {{% alert info %}}**Note:** We recently changed our subscription system. If you signed up for a subscription before December 12, 2015 and have not yet migrated, see instructions for Pin Payment Subscribers below.{{% /alert %}}
 
-We send invoice notifications via email following your automatic credit card payment to the email address you selected. You can choose to send invoices to either the site owner or the [secondary billing administrator](https://docs.balsamiq.com/mybalsamiq/sitesettings/#4-designating-a-secondary-billing-administrator).
+We send invoice notifications via email following your automatic credit card payment to the email address you selected. You can choose to send invoices to either the site owner or the secondary billing administrator. If you need to designate a different staff member as the secondary billing administrator, please see [here](https://docs.balsamiq.com/mybalsamiq/sitesettings/#4-designating-a-secondary-billing-administrator).
 
 A link to your downloadable invoice is included in this notification email. You can also view all past invoices directly on your Payment Info page in the Billing History.
 
 ![](https://media.balsamiq.com/img/support/docs/myb/billinghistory.png)
 
-You can switch between the site owner and secondary billing admin emails at any time. If you need to share invoices with someone other than the site owner or secondary billing admin, you can easily forward the email notifications. Although you must be logged in to myBalsamiq to view your Payment Info page, the link to your invoice can be viewed and downloaded by your finance team without logging in.
+You can switch between the site owner and secondary billing admin email addresses at any time. If you need to share invoices with someone other than the site owner or secondary billing admin, you can easily forward the email notifications. Although you must be logged in to myBalsamiq to view your Payment Info page, the link to your invoice can be viewed and downloaded by your finance team without logging in.
+
+If either the site owner or the secondary billing admin need to change their registered email address, this change must be done within the corresponding [User Settings](https://docs.balsamiq.com/mybalsamiq/usersettings/).
 
 **Pin Payments Subscribers**
 
@@ -83,7 +91,9 @@ After you have migrated, any future changes to your email address will work as d
 
 {{% alert info %}}**Note:** We recently changed our subscription system. If you signed up for a subscription before December 12, 2015 and have not yet migrated, see instructions for Pin Payment Subscribers below.{{% /alert %}}
 
-Billing information can by updated at any time by the site owner or the [secondary billing administrator](https://docs.balsamiq.com/mybalsamiq/sitesettings/#4-designating-a-secondary-billing-administrator) on the Payment Info page in the Site Settings.
+To update your credit card or invoice information, the site owner or [secondary billing admin](https://docs.balsamiq.com/mybalsamiq/sitesettings/#4-designating-a-secondary-billing-administrator) should [log in](https://www.mybalsamiq.com/login) to the myBalsamiq site, and go to Site Settings - which can be reached by selecting “My Info” from the main site navigation.
+
+Here is an example of what you will see when you are on the Payment Info page of your myBalsamiq site:
 
 ![](https://media.balsamiq.com/img/support/docs/myb/billinginfo.png)
 
@@ -105,9 +115,9 @@ After you have migrated, any future updates to your credit card or invoices will
 
 ## Stopping Your Subscription
 
-The site owner or the [secondary billing administrator](https://docs.balsamiq.com/mybalsamiq/sitesettings/#4-designating-a-secondary-billing-administrator) can stop your subscription at any time in the Site Settings, under Payment Info. Site Settings can be reach by selecting "My Info" from the main site navigation.
+The site owner or the [secondary billing administrator](https://docs.balsamiq.com/mybalsamiq/sitesettings/#4-designating-a-secondary-billing-administrator) can stop your subscription at any time in the Site Settings, under Payment Info. Site Settings can be reached by selecting "My Info" from the main site navigation.
 
-To stop your subscription select "Cancel Subscription". After canceling your subscription, your credit card will not be charged again, unless you restart your subscription and enter your credit card information again. Access to your myBalsamiq site will end at the conclusion of the current billing period.
+To stop the auto-renew of your subscription select “Cancel Subscription". After canceling your subscription, your credit card will not be charged again, unless you restart your subscription and enter your credit card information again. Access to your myBalsamiq site will end at the conclusion of the current billing period.
 
 Please review details of [your options](https://docs.balsamiq.com/mybalsamiq/sitesettings/#administration) before canceling your subscription to make sure your team downloads any work they would like to keep.
 

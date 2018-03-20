@@ -1,10 +1,12 @@
 ---
-date: 2015-05-09T16:46:35+02:00
-title: "I'm on a Small Screen. How Can I See More of the Canvas?"
-menu: "menudesktop"
+title: I'm on a Small Screen. How Can I See More of the Canvas?
+date: '2015-05-09T14:46:35.000+00:00'
 weight: 120
+menu: "menudesktop"
+product: "Balsamiq Mockups 3 for Desktop FAQs"
+draft: ''
 ---
-As described in the [Mockups Application Overview](https://docs.balsamiq.com/desktop/overview/), the user interface is divided up into five areas. The primary working area is the [Canvas](https://docs.balsamiq.com/desktop/overview/#the-mockup-canvas) and it is always visible in the center of the screen. You may not need or want to see the other areas at all times, however.
+As described in the [Mockups 3 Application Overview](https://docs.balsamiq.com/desktop/overview/), the user interface is divided up into five areas. The primary working area is the [Canvas](https://docs.balsamiq.com/desktop/overview/#the-mockup-canvas) and it is always visible in the center of the screen. You may not need or want to see the other areas at all times, however.
 
 For this reason the [UI Library](https://docs.balsamiq.com/desktop/overview/#the-ui-library), [Navigator](https://docs.balsamiq.com/desktop/overview/#the-navigator-panel), and [Properties panels](https://docs.balsamiq.com/desktop/overview/#the-properties-panel) can all be **toggled on and off** using the mouse or keyboard.
 

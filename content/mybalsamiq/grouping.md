@@ -1,8 +1,10 @@
 ---
-date: 2015-05-09T16:46:35+02:00
-title: "Best Practices for Grouping Mockups in myBalsamiq"
+title: Best Practices for Grouping Mockups in myBalsamiq
+date: '2015-05-09T14:46:35.000+00:00'
+weight: 10
 menu: "menumybalsamiq"
-weight: 40
+product: "myBalsamiq FAQs"
+draft: ''
 ---
 
 A few people have asked us what the best way to group sets of Mockups together in myBalsamiq is.
@@ -32,10 +34,3 @@ For example, in our own myBalsamiq site, we have projects that have to do with M
 Using a consistent book design and naming scheme makes projects easy to find.
 
 This approach has the advantage of keeping the number of mockups inside each project smaller and thus more manageable, but has the downside of being potentially more expensive in the long run and a little harder to manage in terms of project members, as you will have to invite the appropriate project members to each feature-project.
-
-## Will myBalsamiq Make This Easier in the Future?
-
-Certainly! With your feedback and help, we always work towards making things smoother and easier, that's our job! :)
-
-We could add folders inside projects, or tags, or some sort of tree-view of Mockups within a project...[help us figure it out](http://forum.balsamiq.com)!
-

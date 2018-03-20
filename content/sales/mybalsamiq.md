@@ -1,17 +1,23 @@
 ---
-date: 2015-05-09T16:46:35+02:00
-title: "myBalsamiq Purchasing Table of Contents"
-menu: "menusales"
+title: myBalsamiq Purchasing Table of Contents
+date: '2015-05-09T14:46:35.000+00:00'
 weight: 30
+menu:
+  menusales:
+    weight: 30
+draft: ''
+
 ---
 
-This section covers the most frequently asked questions related to the licensing and purchasing of myBalsamiq, our web application. Other useful myBalsamiq links are the [myBalsamiq Product Page](https://balsamiq.com/products/mockups/mybalsamiq) and the [myBalsamiq Documentation](https://docs.balsamiq.com/mybalsamiq/).
+{{% alert warning %}}**Note:** Now that [Balsamiq Cloud](https://balsamiq.cloud/) is out, we have stopped accepting new myBalsamiq signups. If you're currently a myBalsamiq user, you can [migrate to Cloud](/sales/mybtocloud) if you wish, but there's no rush. We plan on maintaining myBalsamiq for a long time.{{% /alert %}}
+
+This section covers the most frequently asked questions related to the licensing and purchasing of myBalsamiq, our vintage web application. Useful link: [myBalsamiq Documentation](https://docs.balsamiq.com/mybalsamiq/).
 
 **Main article:** [How can I purchase, manage or cancel a myBalsamiq subscription?](/sales/mybsubscriptions/)
 
 ## Evaluating
 
-You can compare our products <a href="https://balsamiq.com/products/compare/">here</a>.
+You can compare our products <a href="https://balsamiq.com/products/">here</a>.
 
 {{% sales_evaluating %}}
 
@@ -20,7 +26,6 @@ You can find the myBalsamiq Terms of Service&nbsp;<a href="https://balsamiq.com/
 ## Pricing and Discounts
 
 *   [Pricing and plan levels](https://balsamiq.com/buy/#myb)
-*   [Are there any discounts for using both myBalsamiq and Mockups 3 for Desktop?](/mybalsamiq/mybanddesktop/#savings-when-using-both-versions)
 *   [Do you offer any other discounts?](/sales/discounts/)
 *   [Can I get myBalsamiq for free?](https://balsamiq.com/free)
 *   [Are there any applicable taxes?](/sales/taxes/)
@@ -42,7 +47,7 @@ You can find the myBalsamiq Terms of Service&nbsp;<a href="https://balsamiq.com/
 
 ## Professional Services and Customization
 
-*   [Does Balsamiq have a professional services team who can assist with on-site training, implementation and/or software customizations?](/sales/consulting/)
-*   [Is Balsamiq Mockups Section 508 compliant?](/sales/508/)
+*   [Does Balsamiq have a professional services team who can assist with on-site training, implementation and/or software customizations?](/sales/training/)
+*   [Is Balsamiq Section 508 compliant?](/sales/508/)
 
 ​**More Questions? Please contact us!** If you have a question that is not answered here, please feel free to [contact us.](mailto:sales@balsamiq.com?subject=I%20have%20questions%20about%20purchasing%20myBalsamiq)

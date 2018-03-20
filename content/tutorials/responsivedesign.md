@@ -1,19 +1,21 @@
 ---
-date: 2015-12-16T12:00:00+01:00
-title: "Responsive Design with Mockups"
-menu: "menututorials"
+title: Responsive Design with Balsamiq
+date: '2015-12-16T11:00:00.000+00:00'
 weight: 140
+menu: "menututorials"
+draft: ''
+product: "Tutorials & Videos"
 ---
 
-## We Love Responsive Design 
+## We Love Responsive Design
 
-Responsive layouts on the web are exciting. Many Mockups users are doing responsive layouts on their projects or are planning to. We've been talking with the Balsamiq community about how Mockups can work with responsive web design concepts, and we thought we'd explore some techniques that might help.
+Responsive layouts on the web are exciting. Many Balsamiq users are doing responsive layouts on their projects or are planning to. We've been talking with the Balsamiq community about how Balsamiq can work with responsive web design concepts, and we thought we'd explore some techniques that might help.
 
-Before diving in, here's how we see Mockups fitting in with responsive layout design scenarios.
+Before diving in, here's how we see Balsamiq fitting in with responsive layout design scenarios.
 
-We believe wireframes can show how web content will flexibly adapt to different grid widths and indicate rules for presentation. Some of the capabilities in Mockups could make it easier for you to communicate how your design would work with responsiveness in mind. The basic ideas are based on techniques we've used and have seen over the years working with teams making wireframes. Other techniques we'll explore show how far you can go using the features of Mockups.
+We believe wireframes can show how web content will flexibly adapt to different grid widths and indicate rules for presentation. Some of the capabilities in Balsamiq could make it easier for you to communicate how your design would work with responsiveness in mind. The basic ideas are based on techniques we've used and have seen over the years working with teams making wireframes. Other techniques we'll explore show how far you can go using the features of Balsamiq.
 
-## Creating a Responsive Design Wireframe System 
+## Creating a Responsive Design Wireframe System
 
 We like systems for communicating ideas. Let's start by looking at one way you might specify how your interface and content will work with different layouts.
 
@@ -41,23 +43,23 @@ Starting from the outside in, we might look at the things that persist from view
 
 **Template Interface Boxes**
 
-1\. Header (Required)  
-1.1 Brand (Required)  
-1.2 Global Navigation (Required)  
-1.3 Tools Navigation (Required)  
+1\. Header (Required)
+1.1 Brand (Required)
+1.2 Global Navigation (Required)
+1.3 Tools Navigation (Required)
 
-2\. Hero (Optional)  
-2.1 Hero Feature  
-2.2 Hero Call to Action  
+2\. Hero (Optional)
+2.1 Hero Feature
+2.2 Hero Call to Action
 
-3\. Ad  
+3\. Ad
 
-4\. Body (Required)  
-4.1 Article Feature  
-4.2 Article Listing (Required)  
+4\. Body (Required)
+4.1 Article Feature
+4.2 Article Listing (Required)
 
-5\. Sidebar (Optional)  
-5.1 Sidebar Feature  
+5\. Sidebar (Optional)
+5.1 Sidebar Feature
 
 6\. Footer (Required)
 
@@ -69,16 +71,14 @@ Start with the grid system of your choice, and figure out what screen sizes you'
 
 **Layouts**
 
-1.  **Default**  
+1.  **Default**
     Min-width: 780px
-2.  **Tablet Portrait (to landscape and desktop)**  
+2.  **Tablet Portrait (to landscape and desktop)**
     Min-width: 768px / Max-width: 979px
-3.  **Smartphone**  
+3.  **Smartphone**
     Max-width: 480px
 
-I created a Symbol library with some helper templates that you can use. You can see [the Bootstrap Symbol Template Libraries on Mockups to Go](https://mockupstogo.mybalsamiq.com/projects/template-bootstrap/grid). If you're using myBalsamiq, upload it to your site or project's Assets. See this [tutorial to learn more about how to use Symbols](https://docs.balsamiq.com/desktop/symbols/).
-
-![](https://mockupstogo.mybalsamiq.com/mockups/2096142.png)
+I created a Symbol library with some helper templates that you can use. You can see [the Bootstrap Symbol Template Libraries on Wireframes To Go](https://wireframestogo.com/#/search=bootstrap). If you're using myBalsamiq, upload it to your site or project's Assets. See this [tutorial to learn more about how to use Symbols](https://docs.balsamiq.com/desktop/symbols/).
 
 ### 3\. Wireframe Zones on Thumbnail Templates
 
@@ -86,13 +86,13 @@ We'll start with a master template that represents the common elements of the si
 
 The idea is to use that Content Outline above and roughly decide where they will go in the layout. Use boxes with labels to show where you think these interface sections will go roughly, and along the way you will get a sense for how you want the boxes to wrap as you work with the smaller layouts.
 
-[![High Level Layout](https://acme.mybalsamiq.com/projects/responsivewireframes/Layout+-+High+Level.png)](https://acme.mybalsamiq.com/projects/responsivewireframes/Layout+-+High+Level.png)
+[![High Level Layout](https://media.balsamiq.com/img/support/tutorials/responsivedesign/Layout+-+High+Level.png)](https://media.balsamiq.com/img/support/tutorials/responsivedesign/Layout+-+High+Level.png)
 
 Now we have the start for how our responsive layout system should work between the 3 screen dimensions we targeted above. From here we can work our way in to identify how boxes should layout within the template.
 
-If you're curious to see another example of this style of wireframe, you can see how I did the [layout system wireframes for myBalsamiq](https://acme.mybalsamiq.com/projects/responsivewireframes/Layout%20System) or just [click here to see a thumbnail image](https://acme.mybalsamiq.com/mockups/1953838.png) of the layout system.
+If you're curious to see another example of this style of wireframe, you can see how I did the [layout system wireframes for myBalsamiq](https://wireframestogo.com/3972-Responsive-Wireframes-Tutorial/) or just [click here to see a thumbnail image](https://media.balsamiq.com/img/support/tutorials/responsivedesign/1953838.png) of the layout system.
 
-## Detailed Wireframing 
+## Detailed Wireframing
 
 We think the best idea is to start with the high level layout of UI boxes as above, and then focus on one target layout first. You can fill in the boxes with content on the page, and then move the boxes around on one of the target layout grids following the first pass you made at the high level template. Then if you need, work on the placement of boxes on the layouts, making changes as you know more about what your boxes will look like.
 
@@ -102,9 +102,9 @@ Then you can work your way in to the more complicated and variable boxes. Start 
 
 Here's an example of what I'm talking about, using the article listing block:
 
-[![](https://acme.mybalsamiq.com/projects/responsivewireframes/assets/article-symbols.png)](https://acme.mybalsamiq.com/projects/responsivewireframes/assets/article-symbols.png)
+[![](https://media.balsamiq.com/img/support/tutorials/responsivedesign/article-symbols.png)](https://media.balsamiq.com/img/support/tutorials/responsivedesign/article-symbols.png)
 
-Now, let's take that idea and use some of the hidden, powerful features of Mockups, namely Symbols and Group Cropping. I'm going to use 2 different techniques that might be interesting to explore:
+Now, let's take that idea and use some of the hidden, powerful features of Balsamiq, namely Symbols and Group Cropping. I'm going to use 2 different techniques that might be interesting to explore:
 
 **Technique #1:**
 
@@ -119,35 +119,25 @@ Now, let's take that idea and use some of the hidden, powerful features of Mocku
 
 Using either of these techniques, you can lay out a page that starts to give an idea of how the content flexes with your target screen resolutions. In the example below, I used Technique #1 to make the header symbol and Technique #2 to make the Article Listings.
 
-[![](https://acme.mybalsamiq.com/projects/responsivewireframes/Home.png)](https://acme.mybalsamiq.com/projects/responsivewireframes/Home.png)
-
-Here's a sped-up video (sorry, no audio) where I show a couple different ideas for how to use Symbols and crop to wireframe the boxes of a few UI elements.
-
-{{< yt uimQXCJbgv8 >}}
-
-Press the Fullscreen icon and use HD for best viewing results.
+[![](https://media.balsamiq.com/img/support/tutorials/responsivedesign/Home.png)](https://media.balsamiq.com/img/support/tutorials/responsivedesign/Home.png)
 
 The simplest scenario would be to make separate symbols, but this is just one idea for people to experiment with.
 
-## Real World Examples 
+## Real World Examples
 
-Superstar Mockups expert, Jeffrey Nolte of the New York consultancy [Moxie Media Group](http://getmoxied.net), was kind enough to share a project he worked on. His project shows how a responsive design adapts to 3 target layouts—Default, Portrait Tablet, and Smartphone. Jeffrey documented all layouts for a view on a single page, so developers knew how the system should adapt.
+Superstar Balsamiq expert, Jeffrey Nolte of the New York consultancy [Moxie Media Group](http://getmoxied.net), was kind enough to share a project he worked on. His project shows how a responsive design adapts to 3 target layouts—Default, Portrait Tablet, and Smartphone. Jeffrey documented all layouts for a view on a single page, so developers knew how the system should adapt.
 
 The example wireframes below show the 3 layouts for a home page.
 
-[![](https://acme.mybalsamiq.com/mockups/456717.png)](https://acme.mybalsamiq.com/mockups/456717.png)
-
-[View full Mockup on myBalsamiq](https://acme.mybalsamiq.com/projects/responsivewireframes-jnolte/01-home-NG)
+[![](https://media.balsamiq.com/img/support/tutorials/responsivedesign/456717.png)](https://media.balsamiq.com/img/support/tutorials/responsivedesign/456717.png)
 
 Below is the home page wireframe with grid markup visible.
 
-[![](https://acme.mybalsamiq.com/mockups/456718.png)](https://acme.mybalsamiq.com/mockups/456718.png)
+[![](https://media.balsamiq.com/img/support/tutorials/responsivedesign/456718.png)](https://media.balsamiq.com/img/support/tutorials/responsivedesign/456718.png)
 
-[View full Mockup on myBalsamiq](https://acme.mybalsamiq.com/projects/responsivewireframes-jnolte/01-home)
+We [posted the entire project on Wireframes To Go](https://wireframestogo.com/d2b9-Responsive-Wireframes---Jeffrey-Nolte/) so you can dig a little deeper and see how they used this system to specify the layout of an ecommerce site with product overviews, detail pages, shopping cart, checkout process, and account views. This is great work and an excellent example of how it's not too difficult to get it done if you establish a system that works for you.
 
-We [posted the entire project on myBalsamiq](https://acme.mybalsamiq.com/projects/responsivewireframes-jnolte/grid) so you can dig a little deeper and see how they used this system to specify the layout of an ecommerce site with product overviews, detail pages, shopping cart, checkout process, and account views. This is great work and an excellent example of how it's not too difficult to get it done if you establish a system that works for you.
-
-## You Don't Have to Wireframe Every View 
+## You Don't Have to Wireframe Every View
 
 It should go without saying, but wireframing is both a process for thinking through problems and specifying interfaces. But creating wireframes doesn't usually require that you lay out every single view. You should know your web site's content, or the scenarios and flows in your app well, and consider first building models for how they behave and layout using a high-level wireframe like we did.
 

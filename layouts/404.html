@@ -8,25 +8,51 @@
 
 {{/* ======================================== */}}
 {{/* SEARCH FORM */}}
-<div class="container-fluid mb1-5" >
-
-<div class="row">
-  <div class="col-xs-12 col-sm-12">
-
-    <h1>Sorry :(</h1>
-    <p>We couldn't find the page you were looking for. Try searching our site below. For further assistance, please <a href="http://staging.balsamiq.com/company/#contact">contact us</a>.</p>
-    <div class="relative">
-      <div class="form-group" id="searchHomeDiv">
-        <input class="form-control" type="text" placeholder="Search all Balsamiq Websites" autocomplete="off">
-      </div>
-      <div id='searchingInBody' style='visibility:hidden'>Searching...</div>
-      <div id='resultsHeading'><h3>Results</h3></div>
-      <div id='resultsInBody' style='visibility:hidden'></div>
+<div class="container" >
+  <div class="row">
+    <div class="col-xs-12 col-sm-12">
+      <h1 class="center b0">:( Help Us Help You!</h1>
+      <p class="center"><strong>Sorry!</strong> We couldn't find the page you were looking for.</p>
     </div>
   </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-12">
+      <div class="relative">
+        <div id="searchHomeDiv">
+          <input class="form-control" type="text" placeholder="Search all Balsamiq Websites" autocomplete="off">
+        </div>
+        <div id='searchingInBody' style='visibility:hidden'>Searching...</div>
+        <div id='resultsHeading'><h3>Results</h3></div>
+        <div id='resultsInBody' style='visibility:hidden'></div>
+      </div>
+      <p class="center mt1">Try <strong>searching our site</strong>, choosing one of the <strong>links below</strong>, or you can <a href="https://balsamiq.com/company/#contact">contact us</a>.</p>
+    </div>
 </div>
 
-</div><!-- /.container-fluid -->
+<div class="row">
+  <div class="col-xs-12 col-sm-6">
+    <h3>Help and Support</h3>
+      <ul>
+        <li><a href="/sales/">Licensing &amp; Purchasing</a></li>
+        <li><a href="/installation/">Installation &amp; Updating</a></li>
+        <li><a href="/tutorials/">Tutorials</a></li>
+        <li><a href="/#support-faqs">Product FAQs</a></li>
+      </ul>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+      <h3>Documentation</h3>
+        <ul>
+          <li><a href="https://docs.balsamiq.com/desktop/">Mockups 3 for Desktop</a></li>
+          <li><a href="https://docs.balsamiq.com/cloud/">Balsamiq Cloud</a></li>
+          <li><a href="https://docs.balsamiq.com/google-drive/">Balsamiq for Google Drive</a></li>
+          <li><a href="https://docs.balsamiq.com/confluence/">Balsamiq for Confluence</a></li>
+          <li><a href="https://docs.balsamiq.com/jira/">Balsamiq for Jira</a></li>
+          <li><a href="https://docs.balsamiq.com/myBalsamiq/">myBalsamiq</a></li>
+        </ul>
+      </div>
+  </div>
+
+</div><!-- /.container -->
 {{/* ======================================== */}}
 
 <script type="text/javascript">
@@ -60,7 +86,7 @@
   urls["portal/articles/2237421"] = "/desktop/backup/";
   urls["portal/articles/468845"] = "/desktop/canvassize/";
   urls["portal/articles/2065924"] = "/desktop/clouddrive/";
-  urls["portal/articles/111762"] = "/desktop/commandline/";
+  urls["portal/articles/111762"] = "/installation/commandline/";
   urls["portal/articles/98986"] = "/desktop/customcontrols/";
   urls["portal/articles/210720"] = "/desktop/customproperties/";
   urls["portal/articles/1948259"] = "/desktop/exportnotes/";
@@ -80,7 +106,7 @@
   urls["portal/articles/520680"] = "/installation/howto/";
   urls["portal/articles/99001"] = "/installation/installermisconfigured/";
   urls["portal/articles/99007"] = "/installation/linux/";
-  urls["portal/articles/1526454"] = "/installation/register/";
+  urls["portal/articles/1526454"] = "/sales/desktopregister/";
   urls["portal/articles/133390"] = "/installation/silentinstall/";
   urls["portal/articles/1500162"] = "/installation/systemrequirements/";
   urls["portal/articles/664251"] = "/installation/unidentifieddeveloper/";
@@ -116,15 +142,15 @@
   urls["portal/articles/1559727"] = "/plugins/introtogoogledrive/";
   urls["portal/articles/1597488"] = "/plugins/newingoogledrive/";
   urls["portal/articles/1021056"] = "/plugins/sharingwithgoogledrive/";
-  urls["portal/articles/1329624"] = "/resources/balsamiqexpertselance/";
-  urls["portal/articles/1329626"] = "/resources/balsamiqexpertsodesk/";
+  urls["portal/articles/1329624"] = "/resources/lookingforhelp/";
+  urls["portal/articles/1329626"] = "/resources/lookingforhelp/";
   urls["portal/articles/1075461"] = "/resources/books/";
-  urls["portal/articles/1329607"] = "/resources/elancejobs/";
-  urls["portal/articles/135659"] = "/resources/extensions/";
+  urls["portal/articles/1329607"] = "/resources/jobs/";
+  urls["portal/articles/135659"] = "/resources/";
   urls["portal/articles/321961"] = "/resources/jobs/";
   urls["portal/articles/277386"] = "/resources/lookingforhelp/";
-  urls["portal/articles/131430"] = "/resources/mockupstogo/";
-  urls["portal/articles/1329588"] = "/resources/odeskjobs/";
+  urls["portal/articles/131430"] = "/resources/wireframestogo/";
+  urls["portal/articles/1329588"] = "/resources/jobs/";
   urls["portal/articles/1339720"] = "/resources/opensourcecontributions/";
   urls["portal/articles/1039611"] = "/resources/uxapprentice/";
   urls["portal/articles/1039611"] = "/resources/uxapprentice/";
@@ -141,7 +167,7 @@
   urls["portal/articles/1505749"] = "/sales/cantlogin/";
   urls["portal/articles/98984"] = "/sales/cantregister/";
   urls["portal/articles/98993"] = "/sales/compare/";
-  urls["portal/articles/131277"] = "/sales/consulting/";
+  urls["portal/articles/131277"] = "/sales/training/";
   urls["portal/articles/127475"] = "/sales/cost/";
   urls["portal/articles/127476"] = "/sales/currency/";
   urls["portal/articles/131268"] = "/sales/customeula/";
@@ -202,26 +228,25 @@
   urls["portal/articles/1334990"] = "/tutorials/datagridlinebreaks/";
   urls["portal/articles/1311320"] = "/tutorials/filesymbolb3/";
   urls["portal/articles/1311321"] = "/tutorials/filesymbolmyb/";
-  urls["portal/articles/871902"] = "/tutorials/firstmockup/";
-  urls["portal/articles/1640366"] = "/tutorials/gettingstarted/";
+  urls["portal/articles/871902"] = "/tutorials/firstwireframe/";
+  urls["portal/articles/1640366"] = "/tutorials/#community";
   urls["portal/articles/117684"] = "/tutorials/hotareas/";
   urls["portal/articles/107966"] = "/tutorials/introvideo/";
   urls["portal/articles/1475687"] = "/tutorials/ipad/";
   urls["portal/articles/1356143"] = "/tutorials/linking/";
   urls["portal/articles/1334980"] = "/tutorials/markup/";
-  urls["portal/articles/1396585"] = "/tutorials/mobileapp10/";
-  urls["portal/articles/1398700"] = "/tutorials/mobileappcreate/";
+  urls["portal/articles/1396585"] = "/tutorials/#community";
+  urls["portal/articles/1398700"] = "/tutorials/#community";
   urls["portal/articles/1119780"] = "/tutorials/mobileapplication/";
-  urls["portal/articles/1398706"] = "/tutorials/mobileapptest/";
-  urls["portal/articles/1311316"] = "/tutorials/mockupstogo/";
-  urls["portal/articles/1720363"] = "/tutorials/mockupstrainingatlassian/";
-  urls["portal/articles/1720370"] = "/tutorials/mockupstraininglynda/";
+  urls["portal/articles/1398706"] = "/tutorials/#community";
+  urls["portal/articles/1311316"] = "/resources/wireframestogo/";
+  urls["portal/articles/1720363"] = "/tutorials/";
+  urls["portal/articles/1720370"] = "/tutorials/#community";
   urls["portal/articles/2065783"] = "/tutorials/multipleselection/";
-  urls["portal/articles/1439945"] = "/tutorials/popup/";
+  urls["portal/articles/1439945"] = "/tutorials/#community";
   urls["portal/articles/1640428"] = "/tutorials/projecttemplates/";
   urls["portal/articles/615901"] = "/tutorials/responsivedesign/";
-  urls["portal/articles/615901"] = "/tutorials/responsivedesign/";
-  urls["portal/articles/1512152"] = "/tutorials/restaurantwebsite/";
+  urls["portal/articles/1512152"] = "/tutorials/#community";
   urls["portal/articles/107999"] = "/tutorials/specifyinginteraction/";
   urls["portal/articles/1306464"] = "/tutorials/symbol/";
   urls["portal/articles/117812"] = "/tutorials/symbolsintro/";
@@ -250,60 +275,71 @@
     window.location.href = urls[croppedURL];
   }
 
-  //Redirect old DBC URLs
-  var redirects = {};
-  redirects["127377"] = "desktop/";
-  redirects["1844131"] = "desktop/intro/";
-  redirects["1908765"] = "desktop/transition/";
-  redirects["109151"] = "desktop/overview/";
-  redirects["110078"] = "desktop/controls/";
-  redirects["110114"] = "desktop/inspector/";
-  redirects["1956540"] = "desktop/alternates/";
-  redirects["1895403"] = "desktop/projectinfo/";
-  redirects["938142"] = "desktop/skins/";
-  redirects["110121"] = "desktop/text/";
-  redirects["110188"] = "desktop/datagrids/";
-  redirects["110202"] = "desktop/icons/";
-  redirects["110401"] = "desktop/images/";
-  redirects["110418"] = "desktop/markup/";
-  redirects["110439"] = "desktop/symbols/";
-  redirects["721960"] = "desktop/sitemaps/";
-  redirects["111730"] = "desktop/exporting/";
-  redirects["1895737"] = "desktop/importing/";
-  redirects["111742"] = "desktop/linking/";
-  redirects["111756"] = "desktop/fullscreen/";
-  redirects["110445"] = "desktop/shortcuts/";
-  redirects["127531"] = "mybalsamiq/";
-  redirects["174898"] = "mybalsamiq/tos/";
-  redirects["112380"] = "mybalsamiq/intro/";
-  redirects["112398"] = "mybalsamiq/home/";
-  redirects["112399"] = "mybalsamiq/project/";
-  redirects["229097"] = "mybalsamiq/accesscontrolmatrix/";
-  redirects["112401"] = "mybalsamiq/mockup/";
-  redirects["1366973"] = "mybalsamiq/editor/";
-  redirects["112403"] = "mybalsamiq/assets/";
-  redirects["229142"] = "mybalsamiq/symbols/";
-  redirects["2038056"] = "mybalsamiq/exporting/";
-  redirects["2038118"] = "mybalsamiq/exporting/";
-  redirects["112404"] = "mybalsamiq/history/";
-  redirects["112405"] = "mybalsamiq/communication/";
-  redirects["519503"] = "mybalsamiq/notifications/";
-  redirects["235574"] = "mybalsamiq/sharing/";
-  redirects["433253"] = "mybalsamiq/usertesting/";
-  redirects["112406"] = "mybalsamiq/usersettings/";
-  redirects["231911"] = "mybalsamiq/sitesettings/";
-  redirects["1559682"] = "google-drive/user-guide/";
-  redirects["113837"] = "confluence/user-guide/";
-  redirects["113839"] = "confluence/admin-guide/";
-  redirects["113842"] = "jira/user-guide/";
-  redirects["113844"] = "jira/admin-guide/";
 
   var newPrefix = "https://docs.balsamiq.com/";
-  var articleID = document.location.href.split("/")[6].split("-")[0].split("#")[0];
+  var seventhPiece = document.location.href.split("/")[6];
+  if (seventhPiece) {
 
-  if (redirects[articleID] != null)
+    var articleID = seventhPiece.split("-")[0].split("#")[0];
+
+    //Redirect old DBC URLs
+    var redirects = {};
+    redirects["127377"] = "desktop/";
+    redirects["1844131"] = "desktop/intro/";
+    redirects["1908765"] = "desktop/transition/";
+    redirects["109151"] = "desktop/overview/";
+    redirects["110078"] = "desktop/controls/";
+    redirects["110114"] = "desktop/inspector/";
+    redirects["1956540"] = "desktop/alternates/";
+    redirects["1895403"] = "desktop/projectinfo/";
+    redirects["938142"] = "desktop/skins/";
+    redirects["110121"] = "desktop/text/";
+    redirects["110188"] = "desktop/datagrids/";
+    redirects["110202"] = "desktop/icons/";
+    redirects["110401"] = "desktop/images/";
+    redirects["110418"] = "desktop/markup/";
+    redirects["110439"] = "desktop/symbols/";
+    redirects["721960"] = "desktop/sitemaps/";
+    redirects["111730"] = "desktop/exporting/";
+    redirects["1895737"] = "desktop/importing/";
+    redirects["111742"] = "desktop/linking/";
+    redirects["111756"] = "desktop/fullscreen/";
+    redirects["110445"] = "desktop/shortcuts/";
+    redirects["127531"] = "mybalsamiq/";
+    redirects["174898"] = "mybalsamiq/tos/";
+    redirects["112380"] = "mybalsamiq/intro/";
+    redirects["112398"] = "mybalsamiq/home/";
+    redirects["112399"] = "mybalsamiq/project/";
+    redirects["229097"] = "mybalsamiq/accesscontrolmatrix/";
+    redirects["112401"] = "mybalsamiq/mockup/";
+    redirects["1366973"] = "mybalsamiq/editor/";
+    redirects["112403"] = "mybalsamiq/assets/";
+    redirects["229142"] = "mybalsamiq/symbols/";
+    redirects["2038056"] = "mybalsamiq/exporting/";
+    redirects["2038118"] = "mybalsamiq/exporting/";
+    redirects["112404"] = "mybalsamiq/history/";
+    redirects["112405"] = "mybalsamiq/communication/";
+    redirects["519503"] = "mybalsamiq/notifications/";
+    redirects["235574"] = "mybalsamiq/sharing/";
+    redirects["433253"] = "mybalsamiq/usertesting/";
+    redirects["112406"] = "mybalsamiq/usersettings/";
+    redirects["231911"] = "mybalsamiq/sitesettings/";
+    redirects["1559682"] = "google-drive/";
+    redirects["113837"] = "confluence/";
+    redirects["113839"] = "confluence/";
+    redirects["113842"] = "jira/";
+    redirects["113844"] = "jira/";
+    redirects["131430"] = "resources/wireframestogo/";
+
+    if (redirects[articleID] != null)
+    {
+      document.location.href = newPrefix+redirects[articleID];
+    }
+  }
+
+  if (document.location.href.indexOf("/sales/consulting") != -1)
   {
-    document.location.href = newPrefix+redirects[articleID];
+    document.location.href = "/sales/training/";
   }
 
   if (document.location.href.indexOf("/articles/105924") != -1)
@@ -315,6 +351,12 @@
   {
     document.location.href = "https://balsamiq.com/company/sponsorships/apply/";
   }
+
+  // START - GTM / GA 404 Code
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({'event': '404_error'});
+  // END - GTM / GA 404 Code
+
 </script>
 
 {{/* ======================================== */}}
